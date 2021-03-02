@@ -1,0 +1,102 @@
+nav i:hover {
+    color: gainsboro;
+}
+
+.presentation {
+    height: 30rem;
+    background-image: url("../images/presentation-background.jpg");
+    width: 100%;
+}
+
+.presentation h1 {
+    text-align: center;
+    color: floralwhite;
+    font-size: 5rem;
+    font-weight: bold;
+    padding-top: 6rem;
+}
+
+.presentation p {
+    color: floralwhite;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem auto 0 auto;
+    line-height: 3rem;
+    width: 80%;
+    background-color: rgba(19, 23, 21, 0.2);
+    border-radius: 10px;
+}
+
+
+/* Slogan styling */
+
+.slogan {
+    font-size: 3rem;
+    color: floralwhite;
+    width: 100%;
+    margin: 7rem auto;
+}
+
+.slogan h4 {
+    text-align: center;
+}
+
+
+/* Content styling */
+
+.content-container {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #131715;
+}
+
+.container:hover .overlay {
+    opacity: 0.9;
+}
+
+.text {
+    color: floralwhite;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.text span {
+    font-size: 0.8rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+}
+
+footer span {
+    color: floralwhite;
+}
