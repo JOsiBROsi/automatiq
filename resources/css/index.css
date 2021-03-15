@@ -95,8 +95,17 @@ footer {
     align-items: center;
     justify-content: space-around;
     height: 5rem;
+    margin-top: 5rem;
 }
 
 footer span {
+    color: floralwhite;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 0.5rem 4rem;
+    background-color: #979997;
+    border-radius: 4px;
     color: floralwhite;
 }
